@@ -6,7 +6,7 @@ angular.module('listings').controller('ListingsController', ['$scope', 'Listings
     $scope.form = {};
 
     $scope.addListing = function() {
-      console.log("Button is working");
+      // console.log("Button is working");
       $scope.listings.push($scope.form);
       $scope.form = {}
       $scope.show = !$scope.show;
